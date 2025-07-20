@@ -8,3 +8,9 @@
     padding-left: 15px;
     padding-right: 15px;
  }
+
+ .row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+ }
