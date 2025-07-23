@@ -45,3 +45,14 @@ Header
     width: 100%;
     background: rgba(255, 255, 255, 0.9)
 }
+
+.brand {
+    line-height: 1;
+    font-size: 28px;
+    font-size: 1.75rem;
+}
+
+.brand a {
+    text-decoration: none;
+    color: #333;
+}

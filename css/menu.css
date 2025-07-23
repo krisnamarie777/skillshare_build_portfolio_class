@@ -1,0 +1,47 @@
+/*
+Nav
+***********************************************************/
+
+.menu-toggle {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    z-index: 3;
+    cursor: pointer;
+    width: auto;
+}
+
+.menu-toggle span {
+    font-size: 28px;
+    transition: all 800ms ease-out; 
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    visibility: visible; /*change to hidfen later */
+    background: rgba(255,255,255,0.9);
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e4;
+}
+
+.menu .show {
+    /* .show will be triggered by javascript */
+}
+
+.menu-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu-nav a{
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 28px;
+}
