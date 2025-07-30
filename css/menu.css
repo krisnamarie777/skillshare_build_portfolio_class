@@ -9,11 +9,14 @@ Nav
     z-index: 3;
     cursor: pointer;
     width: auto;
+    width:60px;
+    height: 60px;
+    background: red;
 }
+
 
 .menu-toggle span {
     font-size: 28px;
-    transition: all 800ms ease-out; 
 }
 
 .menu {
@@ -21,16 +24,18 @@ Nav
     top: 0;
     right: 0;
     width: 30%;
-    visibility: visible; /*change to hidfen later */
+    visibility: hidden;
     background: rgba(255,255,255,0.9);
     height: 100vh;
     padding: 50px;
     box-sizing: border-box;
     border: 1px solid #e4e4e4;
+    
 }
 
 .menu .show {
-    /* .show will be triggered by javascript */
+   visibility: visible;
+
 }
 
 .menu-nav {
